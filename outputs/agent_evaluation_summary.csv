@@ -1,0 +1,8 @@
+scenario_id,status,steps,llm_calls,tool_calls,tokens_used,execution_time_seconds
+S1,REFUND,4,5,4,885,0.016
+S2,REFUND,4,5,4,885,0.015
+S3,ESCALATE,4,5,4,872,0.016
+S4,DENIED,3,4,3,593,0.016
+S5,FALLBACK_ERROR,0,1,0,31,0.015
+S6,NOT_FOUND,1,2,1,66,0.0
+S7,FALLBACK_MAX_ITERATIONS,6,6,6,2982,0.016
